@@ -31,6 +31,7 @@ header a {
     color: inherit;
 }
 
+
 h1 {
     font-family: 'oswald', sans-serif;
     letter-spacing: 2px;
@@ -49,6 +50,16 @@ h1 {
 }
 
 .active { border-bottom: 1px solid #3a3a3a;}
+
+nav {
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding-top: 0 1rem;
+    background-color: #ffffff;
+    left: 0;
+    display: none;
+}
 
 /* Main Content */
 main {
