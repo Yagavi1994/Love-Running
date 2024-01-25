@@ -98,9 +98,9 @@ footer {
     nav {
         display: block;
         box-shadow: none;
-        padding-right: 1 rem;
         position: relative;
         width: fit-content;
+        padding-right: 1rem;
     }
 
     #menu {
@@ -108,7 +108,11 @@ footer {
     }
 
     #menu > li {
-        padding-left: 1 rem;
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label { 
+        display: none;
     }
     
 }
